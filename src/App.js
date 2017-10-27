@@ -1,6 +1,6 @@
 import React from 'react';
 
-const App = () => {
+const App = (props) => {
     const facts = props.facts.map((fact, i) => {
         return <li key={i}>{fact.text}</li>
     });
